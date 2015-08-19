@@ -37,8 +37,8 @@
             </service>
             
         </config-file>
-        
-        <source-file src="src/android/MyService.java" target-dir="src/com/red_folder/phonegap/plugin/backgroundservice/sample" />
+
+        <source-file src="src/android/SparweltBackgroundService.java" target-dir="src/com/sparwelt/cordova/backgroundservice/plugin" />
     </platform>
 	
 </plugin>
