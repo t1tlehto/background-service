@@ -24,15 +24,15 @@
 
 		<asset src="www/myService.html" target="myService.html" />
 
-		<js-module src="www/myService.js" name="MyService">
-			<clobbers target="cordova.plugins.myService" />
+		<js-module src="www/SparweltBackgroundService.js" name="SparweltBackgroundService">
+			<clobbers target="cordova.plugins.SparweltBackgroundService" />
 		</js-module>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
   
-            <service android:name="com.red_folder.phonegap.plugin.backgroundservice.sample.MyService">
+            <service android:name="com.sparwelt.cordova.backgroundservice.plugin.SparweltBackgroundService">
                 <intent-filter>         
-                    <action android:name="com.red_folder.phonegap.plugin.backgroundservice.sample.MyService"/> 
+                    <action android:name="com.sparwelt.cordova.backgroundservice.plugin.SparweltBackgroundService"/>
                 </intent-filter>     
             </service>
             

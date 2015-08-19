@@ -1,4 +1,4 @@
-package com.red_folder.phonegap.plugin.backgroundservice.sample;
+package com.sparwelt.cordova.backgroundservice.plugin;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,11 +10,11 @@ import android.util.Log;
 
 import com.red_folder.phonegap.plugin.backgroundservice.BackgroundService;
 
-public class MyService extends BackgroundService {
+public class SparweltBackgroundService extends BackgroundService {
 	
-	private final static String TAG = MyService.class.getSimpleName();
+	private final static String TAG = SparweltBackgroundService.class.getSimpleName();
 	
-	private String mHelloTo = "World";
+	private String mHelloTo = "spartwelt";
 
 	@Override
 	protected JSONObject doWork() {
