@@ -38,6 +38,8 @@
             
         </config-file>
 
+        <framework src="src/android/sparweltbgservice.gradle" custom="true" type="gradleReference"/>
+
         <source-file src="src/android/SparweltBackgroundService.java" target-dir="src/com/sparwelt/cordova/backgroundservice/plugin" />
     </platform>
 	
